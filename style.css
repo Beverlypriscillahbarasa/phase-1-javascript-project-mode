@@ -1,0 +1,82 @@
+body {
+    /* background-image: url('images/police accident image.jpg'); Replace 'your-image-url.jpg' with the path to your image */
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-attachment: fixed; /* Keep the background image fixed while scrolling */
+    opacity: 200.0; /* Set the opacity of the background image (0.8 for 80% opacity) */
+}
+
+img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Add margins around the logo */
+}
+#navbar {
+    background-color: #1974BD;
+    padding: 10px;
+}
+
+#navbar ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li {
+    display:inline-block;
+    margin-left: 20px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration:underline;
+}
+
+#navbar a:hover {
+    color: #917070;
+}
+body {
+    background-color: #ffffff; /* Replace with your desired color */
+}
+
+#navbar a {
+    color: #E7BE57; /* Change link color to #E7BE57 */
+}
+
+#navbar a:hover {
+    color: #E7BE57; /* Change link color on hover to #E7BE57 */
+}
+#navbar li{
+    padding: 0px;
+    font-size:medium;
+}
+#Emergency-response {
+    list-style-type: none;
+    padding: 0;
+    margin: 7px;
+  }
+  
+  #Emergency-response li {
+    display: inline-block;
+    margin-right: 79px; /* Adjust spacing between list items */
+    cursor: pointer;
+    
+  }
+  
+  #Emergency-response li:hover {
+    color: #EFB729; /* Change text color on hover */
+  }
+  
+  #Emergency {
+    background-color: #1974BD;
+    padding: 90px;
+  }
+#Emergency a {
+    color: #E7BE57;;
+    }
+p {
+    margin: 5 auto; /* Set top and bottom margins to 0 and left and right margins to auto */
+    max-width: 1500px; /* Optional: Set maximum width to prevent the paragraph from stretching too wide */
+    padding:1%;
+    }
+      
